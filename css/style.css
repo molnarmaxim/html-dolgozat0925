@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C3E8BD;
+}
+
+header {
+    background-color: #5B7553;
+    padding: 50px;
+    margin: 0;
+}
+
+header h1 {
+    color: whitesmoke;
+    font-size: 55px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+
+#nav-link {
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #5B7553;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+
+#nav-link:hover {
+    color: white;
+    font-size: 20px;
+    transition: ease-in .3s;
+}
+
+nav {
+    text-align: center;
+    background-color: #040403;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5B7553;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    margin-top: 25px;
+}
+
+section article {
+    background-color: #5B7553;
+    width: 67%;
+    float: left;
+    margin-left: 15px;
+    border-radius: 8px;
+    height: 250px;
+}
+
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section article h1, h2, h3, h4, p {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    float: left;
+    font-family: 'Lora', serif;
+}
+
+section article p {
+    text-align: justify;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+section article img {
+    margin: 25px;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+aside {
+    background-color: #5B7553;
+    width: 30%;
+    float: right;
+    margin-right: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+}
+
+aside h1 {
+    padding: 0;
+    margin-bottom: 3px;
+}
