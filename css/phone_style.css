@@ -59,6 +59,7 @@ footer {
 section {
     margin-top: 25px;
     height: 75vh;
+    text-align: center;
 }
 
 section article {
@@ -69,11 +70,7 @@ section article {
     border-radius: 8px;
 }
 
-article::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 section article h2 {
     margin-left: 10px;
@@ -97,12 +94,12 @@ section article img {
 }
 
 
-
-.description {
-  display: flex;
-  align-items: center;
-  justify-content: center
+article h1 {
+    color: white;
+    font-family: 'Lora', serif;
+    margin-top: 15px;
 }
+
 
 aside {
     background-color: #5B7553;
@@ -126,3 +123,18 @@ aside h1 {
     text-align: right;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: #C3E8BD;
+    font-family: 'Lora', serif;
+}
+
+th, td {
+    border: 1px solid black;
+    border-radius: 110px;
+    padding: 10px;
+    text-align: center;
+}

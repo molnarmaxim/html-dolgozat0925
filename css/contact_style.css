@@ -58,7 +58,8 @@ footer {
 
 section {
     margin-top: 25px;
-    height: 75vh;
+    height: 80vh;
+    text-align: center;
 }
 
 section article {
@@ -69,11 +70,7 @@ section article {
     border-radius: 8px;
 }
 
-article::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 section article h2 {
     margin-left: 10px;
@@ -97,12 +94,12 @@ section article img {
 }
 
 
-
-.description {
-  display: flex;
-  align-items: center;
-  justify-content: center
+article h1 {
+    color: white;
+    font-family: 'Lora', serif;
+    margin-top: 15px;
 }
+
 
 aside {
     background-color: #5B7553;
@@ -126,3 +123,103 @@ aside h1 {
     text-align: right;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: #C3E8BD;
+    font-family: 'Lora', serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.elerhetosegek {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #5B7553;
+    width: 30%;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    color: black;
+    border-radius: 8px;
+}
+
+.elerhetosegek-1, .elerhetosegek-2 {
+    background-color: #C3E8BD;
+    border-radius: 8px;
+    width: 45%;
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    font-family: 'Lora', serif;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #5B7553;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    font-family: 'Lora', serif;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+input checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    font-family: 'Poppins', serif;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+form p {
+    color: white;
+    font-family: 'Poppins', serif;
+    text-align: left;
+    margin-left: 10px;
+    display: inline;
+}
+
+form h1 {
+    color: white;
+    font-family: 'Poppins', serif;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #C3E8BD;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
